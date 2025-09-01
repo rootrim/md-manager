@@ -1,7 +1,7 @@
 use std::fs::File;
-use std::path::Path;
+use std::path::PathBuf;
 
 pub struct Preview {
-    file_path: Box<Path>,
+    file_path: PathBuf,
     file: File,
 }
